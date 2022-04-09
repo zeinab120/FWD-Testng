@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Regression Test" preserve-order="true">
+        <classes>
+            <class name="test.F1_UserRegisterTest" />
+            <class name="test.F2_SearchTest"/>
+            <class name="test.HoverCategorythenTagColorTest"/>
+            <class name="test.AddProductToComareTest" />
+            <class name="test.WishListTest"></class>
+            <class name="test.AddProductToCartTest" />
+
+
+ </classes>
+    </test>
+</suite>
